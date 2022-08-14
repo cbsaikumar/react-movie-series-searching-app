@@ -1,0 +1,11 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  padding: 2vh;
+  background-color: #022;
+  color: white;
+  box-shadow: 0px 1px 5px black;
+  position: fixed;
+  bottom: 0;
+  z-index: 2;
+}

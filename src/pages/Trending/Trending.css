@@ -1,0 +1,15 @@
+.section-header {
+  font-size: 5vw;
+  justify-content: center;
+  display: flex;
+  color: white;
+  font-weight: bolder;
+}
+
+.pagination {
+  height: 120px;
+  margin-top: 15px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}

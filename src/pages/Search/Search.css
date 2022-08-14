@@ -1,0 +1,36 @@
+.search-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-box {
+  margin-right: 10px;
+}
+
+.btn-search {
+  margin-left: 10px;
+  border: none;
+  outline-style: none;
+  box-shadow: 0px 1px 10px grey;
+  border: 1px solid rgb(84, 83, 83);
+  padding: 7px;
+  border-radius: 3px;
+}
+
+.search-section {
+  width: 100%;
+  margin: 4vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.tabs-section {
+  width: 100%;
+}
+
+.empty-search-msg {
+  min-height: 60vh;
+}

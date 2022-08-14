@@ -1,0 +1,24 @@
+.carousal-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.carousal-img {
+  object-fit: contain;
+  border-radius: 30px !important;
+  margin-bottom: 5px;
+  box-sizing: 0px 0px 5px black;
+}
+
+@media (min-width: 835px) {
+  .carousal-item {
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+  }
+
+  .carousal-img {
+    object-fit: contain;
+    border-radius: 30px !important;
+  }
+}
